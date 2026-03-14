@@ -54,7 +54,7 @@ export default function HeroSection() {
       {/* Explore Button */}
       <motion.button 
         variants={itemVariants}
-        className="flex items-center gap-2 bg-[#3B82F6] hover:bg-blue-600 text-white px-5 py-2 md:px-6 md:py-2.5 rounded-full text-xs md:text-sm font-medium w-max shadow-md shadow-blue-500/30 transition-all mb-10 lg:mb-16"
+        className="flex items-center gap-2 bg-[#3B82F6] hover:bg-blue-600 text-white px-5 py-2 md:px-6 md:py-2.5 rounded-full text-xs md:text-sm font-medium w-max shadow-md shadow-blue-500/30 transition-all mb-10 lg:mb-16 relative z-10"
       >
         <ArrowRight size={16} /> Explore
       </motion.button>
@@ -62,7 +62,7 @@ export default function HeroSection() {
       {/* Agoda Section */}
       <motion.div 
         variants={itemVariants}
-        className="flex flex-col gap-4 max-w-lg"
+        className="flex flex-col gap-4 max-w-lg relative z-10 backdrop-blur-[2px] rounded-xl"
       >
         <div className="flex items-start md:items-center justify-between flex-col md:flex-row gap-3 md:gap-0">
           <div>
@@ -75,14 +75,14 @@ export default function HeroSection() {
         {/* Search Form */}
         <div className="flex flex-col gap-3 mt-2">
           {/* Destination */}
-          <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white">
+          <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white/90 shadow-sm transition-all focus-within:shadow-md focus-within:border-blue-300">
             <span className="text-[10px] text-gray-500 uppercase font-semibold">Destination name</span>
             <input type="text" placeholder="Enter a destination or property" className="outline-none text-sm w-full bg-transparent mt-1 text-gray-800" />
           </div>
 
           <div className="grid grid-cols-2 gap-3">
             {/* Check In */}
-            <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white relative">
+            <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white/90 relative shadow-sm transition-all focus-within:shadow-md focus-within:border-blue-300">
               <span className="text-[10px] text-gray-500 uppercase font-semibold">Check In</span>
               <div className="flex items-center justify-between mt-1">
                  <input type="text" placeholder="26 Mar, Th" className="outline-none text-sm w-full bg-transparent text-gray-800" />
@@ -91,7 +91,7 @@ export default function HeroSection() {
             </div>
 
             {/* Check Out */}
-            <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white relative">
+            <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white/90 relative shadow-sm transition-all focus-within:shadow-md focus-within:border-blue-300">
               <span className="text-[10px] text-gray-500 uppercase font-semibold">Check Out</span>
               <div className="flex items-center justify-between mt-1">
                  <input type="text" placeholder="28 Mar, Sa" className="outline-none text-sm w-full bg-transparent text-gray-800" />
@@ -101,11 +101,81 @@ export default function HeroSection() {
           </div>
 
           {/* Search Button */}
-          <button className="bg-[#4192FF] hover:bg-blue-500 text-white w-full py-3 rounded-md text-sm font-semibold transition mt-1">
+          <button className="bg-[#4192FF] hover:bg-blue-500 text-white w-full py-3 rounded-md text-sm font-semibold transition mt-1 shadow-md shadow-blue-500/20 active:scale-[0.98]">
             Search
           </button>
         </div>
       </motion.div>
+
+      {/* Decorative Floating Elements Background */}
+      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+        {/* Abstract shape 1 - Green leaf-like blob */}
+        <motion.div 
+          className="absolute top-[10%] left-[-5%] w-64 h-64 bg-emerald-100/40 rounded-full blur-3xl"
+          animate={{
+            y: [0, -20, 0],
+            x: [0, 15, 0],
+            scale: [1, 1.05, 1],
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "easeInOut"
+          }}
+        />
+
+        {/* Abstract shape 2 - Blue water-like blob */}
+        <motion.div 
+          className="absolute top-[40%] right-[10%] w-72 h-72 bg-blue-100/40 rounded-full blur-3xl"
+          animate={{
+            y: [0, 30, 0],
+            x: [0, -20, 0],
+            scale: [1, 1.1, 1],
+          }}
+          transition={{
+            duration: 12,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "easeInOut",
+            delay: 1
+          }}
+        />
+        
+        {/* Abstract shape 3 - Warm sun-like blob */}
+        <motion.div 
+          className="absolute bottom-[-5%] left-[20%] w-56 h-56 bg-orange-50/50 rounded-full blur-2xl"
+          animate={{
+            y: [0, -15, 0],
+            scale: [1, 1.05, 1],
+          }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "easeInOut",
+            delay: 2
+          }}
+        />
+
+        {/* Small floating dots */}
+        <motion.div 
+          className="absolute top-[30%] left-[40%] w-3 h-3 bg-emerald-400/30 rounded-full"
+          animate={{ y: [0, -40, 0], opacity: [0.3, 0.8, 0.3] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+        />
+        <motion.div 
+          className="absolute top-[60%] left-[15%] w-4 h-4 bg-blue-400/30 rounded-full"
+          animate={{ y: [0, -30, 0], x: [0, 10, 0], opacity: [0.3, 0.7, 0.3] }}
+          transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+        />
+        <motion.div 
+          className="absolute bottom-[20%] left-[80%] w-2 h-2 bg-orange-400/40 rounded-full"
+          animate={{ y: [0, -50, 0], opacity: [0.4, 0.9, 0.4] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 3 }}
+        />
+      </div>
+
     </motion.div>
   );
 }

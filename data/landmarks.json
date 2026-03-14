@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "project": "Sri Lanka 3D Interactive Map",
+    "version": "1.0.1",
+    "last_updated": "2026-03-15"
+  },
+  "landmarks": [
+    {
+      "id": "lk-north-001",
+      "name": "Jaffna Peninsula",
+      "coordinates": { "top": "10%", "left": "30%" },
+      "category": "Culture",
+      "description": "The northern cultural hub featuring the historic Jaffna Fort and Nallur Kandaswamy Kovil.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-anc-001",
+      "name": "Anuradhapura Sacred City",
+      "coordinates": { "top": "25%", "left": "45%" },
+      "category": "UNESCO Heritage",
+      "description": "The first ancient capital of Sri Lanka, home to the Great Ruwanwelisaya Stupa.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-anc-002",
+      "name": "Sigiriya Rock Fortress",
+      "coordinates": { "top": "34%", "left": "36%" },
+      "category": "UNESCO Heritage",
+      "description": "The 5th-century 'Lion Rock' fortress, known for its sky-palace and ancient frescoes.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-anc-003",
+      "name": "Polonnaruwa Ruins",
+      "coordinates": { "top": "42%", "left": "58%" },
+      "category": "UNESCO Heritage",
+      "description": "Medieval capital featuring the Gal Vihara rock-cut Buddha statues.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-hills-001",
+      "name": "Kandy (Temple of the Tooth)",
+      "coordinates": { "top": "54%", "left": "51%" },
+      "category": "Religious",
+      "description": "The hilltop capital housing the sacred relic of the tooth of the Buddha.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-hills-002",
+      "name": "Nuwara Eliya & Ella",
+      "coordinates": { "top": "68%", "left": "48%" },
+      "category": "Nature",
+      "description": "The misty tea country featuring Nine Arch Bridge and World's End.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-south-001",
+      "name": "Yala National Park",
+      "coordinates": { "top": "67%", "left": "74%" },
+      "category": "Wildlife",
+      "description": "Renowned for the highest density of leopards in the world.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-south-002",
+      "name": "Galle Fort",
+      "coordinates": { "top": "78%", "left": "38%" },
+      "category": "Colonial Heritage",
+      "description": "A 16th-century Portuguese and Dutch fortification still bustling with life.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    },
+    {
+      "id": "lk-west-001",
+      "name": "Colombo",
+      "coordinates": { "top": "58%", "left": "25%" },
+      "category": "Commercial",
+      "description": "The bustling economic capital, featuring the Lotus Tower and Galle Face Green.",
+      "image_thumb": "/Assets/Images/smaple.webp"
+    }
+  ]
+}

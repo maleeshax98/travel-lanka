@@ -1,0 +1,41 @@
+{
+  "navigation": [
+    { 
+      "label": "Home", 
+      "hasDropdown": false 
+    },
+    { 
+      "label": "The Island", 
+      "hasDropdown": false 
+    },
+    { 
+      "label": "Destinations", 
+      "hasDropdown": true,
+      "subItems": ["Colombo", "Kandy", "Galle", "Nuwara Eliya", "Ella", "Jaffna", "Trincomalee"]
+    },
+    { 
+      "label": "Things To Do", 
+      "hasDropdown": true,
+      "subItems": ["Surfing", "Hiking", "Safari", "Whale Watching", "Tea Tasting", "Scuba Diving"]
+    },
+    { 
+      "label": "Beaches", 
+      "hasDropdown": true,
+      "subItems": ["Unawatuna", "Mirissa", "Arugam Bay", "Hikkaduwa", "Nilaveli", "Pasikudah"]
+    },
+    { 
+      "label": "Travel Tips", 
+      "hasDropdown": false 
+    },
+    { 
+      "label": "Water Falls", 
+      "hasDropdown": true,
+      "subItems": ["Bambarakanda", "Diyaluma", "Dunhinda", "Bopath Ella", "St. Clair's Falls"]
+    },
+    { 
+      "label": "National Parks", 
+      "hasDropdown": true,
+      "subItems": ["Yala", "Udawalawe", "Wilpattu", "Minneriya", "Horton Plains"]
+    }
+  ]
+}

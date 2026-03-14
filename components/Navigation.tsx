@@ -34,14 +34,16 @@ export default function Navigation() {
 
             {/* Desktop Dropdown items */}
             {item.hasDropdown && activeDropdown === idx && (
-              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-48 bg-white/90 backdrop-blur-lg rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.1)] py-3 overflow-hidden border border-white/50 z-50">
-                <ul className="flex flex-col">
-                  {item.subItems?.map((subItem, subIdx) => (
-                    <li key={subIdx} className="px-5 py-2 hover:bg-blue-50 hover:text-blue-600 text-gray-700 transition-colors text-sm">
-                      {subItem}
-                    </li>
-                  ))}
-                </ul>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-48 z-50">
+                <div className="bg-white/90 backdrop-blur-lg rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.1)] py-2 px-1 border border-white/50">
+                  <ul className="flex flex-col">
+                    {item.subItems?.map((subItem, subIdx) => (
+                      <li key={subIdx} className="px-4 py-2 hover:bg-blue-50 rounded-lg hover:text-blue-600 text-gray-700 transition-colors text-sm w-full font-medium">
+                        {subItem}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             )}
           </li>

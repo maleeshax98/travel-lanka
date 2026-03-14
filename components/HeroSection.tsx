@@ -77,7 +77,7 @@ export default function HeroSection() {
           {/* Destination */}
           <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white">
             <span className="text-[10px] text-gray-500 uppercase font-semibold">Destination name</span>
-            <input type="text" placeholder="Enter a destination or property" className="outline-none text-sm w-full bg-transparent mt-1" />
+            <input type="text" placeholder="Enter a destination or property" className="outline-none text-sm w-full bg-transparent mt-1 text-gray-800" />
           </div>
 
           <div className="grid grid-cols-2 gap-3">
@@ -85,7 +85,7 @@ export default function HeroSection() {
             <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white relative">
               <span className="text-[10px] text-gray-500 uppercase font-semibold">Check In</span>
               <div className="flex items-center justify-between mt-1">
-                 <input type="text" placeholder="26 Mar, Th" className="outline-none text-sm w-full bg-transparent" />
+                 <input type="text" placeholder="26 Mar, Th" className="outline-none text-sm w-full bg-transparent text-gray-800" />
                  <CalendarDays size={16} className="text-blue-500 absolute right-2 bottom-3" />
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function HeroSection() {
             <div className="flex flex-col border border-gray-200 rounded-md p-2 bg-white relative">
               <span className="text-[10px] text-gray-500 uppercase font-semibold">Check Out</span>
               <div className="flex items-center justify-between mt-1">
-                 <input type="text" placeholder="28 Mar, Sa" className="outline-none text-sm w-full bg-transparent" />
+                 <input type="text" placeholder="28 Mar, Sa" className="outline-none text-sm w-full bg-transparent text-gray-800" />
                  <CalendarDays size={16} className="text-blue-500 absolute right-2 bottom-3" />
               </div>
             </div>

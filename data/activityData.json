@@ -1,151 +1,143 @@
 {
   "metadata": {
     "project": "Sri Lanka 3D Interactive Map",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "last_updated": "2026-03-15"
   },
 
   "activities": [
     {
       "name": "Surfing & Swimming",
+      "description": "Sri Lanka is one of the best tropical surfing destinations in the world thanks to its warm Indian Ocean waters and consistent waves on both the east and south coasts. Many beaches also offer calm swimming areas and beginner-friendly surf schools.",
       "locations": [
         {
           "name": "Arugam Bay",
           "district": "Ampara",
-          "image": "https://images.unsplash.com/photo-1587502537745-84d3c1c1f1b3",
-          "description": "Arugam Bay is one of the most famous surfing destinations in the world and hosts international surf competitions. The long right-hand waves and warm Indian Ocean waters make it ideal for both beginner and professional surfers."
+          "image": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc"
         },
         {
           "name": "Weligama Beach",
           "district": "Matara",
-          "image": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc",
-          "description": "Weligama is a wide sandy bay known for beginner-friendly waves and safe swimming areas. Surf schools and board rentals make it one of the best places in Sri Lanka to learn surfing."
+          "image": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc"
         }
       ]
     },
 
     {
       "name": "Camping",
+      "description": "Sri Lanka offers incredible camping experiences surrounded by wildlife, mountains, and forests. Visitors can stay in safari camps near national parks or camp in highland mountain ranges with waterfalls and cloud forests.",
       "locations": [
         {
           "name": "Yala National Park",
           "district": "Hambantota",
-          "image": "https://images.unsplash.com/photo-1589894905462-9037e1c1c9a3",
-          "description": "Camping in Yala offers a wilderness experience surrounded by forests and wildlife. Visitors may see elephants, leopards, crocodiles, and exotic birds while staying in safari camps inside the park."
+          "image": "https://images.unsplash.com/photo-1589894905462-9037e1c1c9a3"
         },
         {
           "name": "Knuckles Mountain Range",
           "district": "Matale",
-          "image": "https://images.unsplash.com/photo-1560713781-d4c6fbc9cfd4",
-          "description": "The Knuckles range is perfect for mountain camping with cloud forests, waterfalls, and dramatic landscapes. It is a UNESCO conservation area popular for eco-tourism and trekking."
+          "image": "https://images.unsplash.com/photo-1560713781-d4c6fbc9cfd4"
         }
       ]
     },
 
     {
       "name": "Diving & Snorkeling",
+      "description": "Sri Lanka’s coral reefs and clear tropical waters make it a fantastic destination for snorkeling and diving. The island is home to vibrant coral ecosystems, sea turtles, reef sharks, and colorful tropical fish.",
       "locations": [
         {
           "name": "Hikkaduwa Coral Reef",
           "district": "Galle",
-          "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7",
-          "description": "Hikkaduwa is one of Sri Lanka’s most famous snorkeling spots with vibrant coral reefs, tropical fish, and sea turtles. The clear shallow waters make it ideal for beginners."
+          "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7"
         },
         {
           "name": "Pigeon Island",
           "district": "Trincomalee",
-          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
-          "description": "Located near Nilaveli Beach, Pigeon Island National Park is known for crystal-clear waters, coral reefs, reef sharks, and colorful marine life."
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5"
         }
       ]
     },
 
     {
       "name": "Mountain & Hill Hiking",
+      "description": "Sri Lanka’s central highlands provide spectacular hiking trails through tea plantations, cloud forests, waterfalls, and scenic viewpoints. Many mountains also have cultural or spiritual significance.",
       "locations": [
         {
           "name": "Adam's Peak (Sri Pada)",
           "district": "Ratnapura",
-          "image": "https://images.unsplash.com/photo-1598514982805-5f7d0d2d63bf",
-          "description": "Adam's Peak is a sacred mountain famous for its pilgrimage climb. Thousands hike to the summit overnight to witness the spectacular sunrise and the mountain’s unique shadow."
+          "image": "https://images.unsplash.com/photo-1598514982805-5f7d0d2d63bf"
         },
         {
           "name": "Ella Rock",
           "district": "Badulla",
-          "image": "https://images.unsplash.com/photo-1583241475880-083f84372740",
-          "description": "Ella Rock offers one of the best hiking experiences in Sri Lanka. The trail passes through tea plantations, forests, and railway tracks before reaching a viewpoint overlooking the hill country."
+          "image": "https://images.unsplash.com/photo-1583241475880-083f84372740"
         }
       ]
     },
 
     {
       "name": "Paragliding Tours",
+      "description": "With dramatic mountain landscapes and steady hill winds, Sri Lanka offers unique paragliding opportunities over valleys, lakes, and tea estates, giving visitors breathtaking aerial views of the island.",
       "locations": [
         {
           "name": "Ella",
           "district": "Badulla",
-          "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-          "description": "Ella’s mountain landscapes and strong hill winds create ideal conditions for paragliding. The flight offers breathtaking views of valleys, tea estates, and waterfalls."
+          "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
         },
         {
           "name": "Kandalama",
           "district": "Dambulla",
-          "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1",
-          "description": "Kandalama provides scenic paragliding experiences with views over the Kandalama Lake and surrounding jungle landscapes near Sigiriya."
+          "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1"
         }
       ]
     },
 
     {
       "name": "Wildlife Safari",
+      "description": "Sri Lanka is one of the best wildlife safari destinations in Asia, known for its large elephant populations and one of the highest leopard densities in the world. National parks provide jeep safaris through forests, grasslands, and lagoons.",
       "locations": [
         {
           "name": "Yala National Park",
           "district": "Hambantota",
-          "image": "https://images.unsplash.com/photo-1549366021-9f761d450615",
-          "description": "Yala National Park is the most famous wildlife park in Sri Lanka and is known for having one of the highest densities of leopards in the world along with elephants, sloth bears, and crocodiles."
+          "image": "https://images.unsplash.com/photo-1549366021-9f761d450615"
         },
         {
           "name": "Udawalawe National Park",
           "district": "Ratnapura",
-          "image": "https://images.unsplash.com/photo-1549366021-9f761d450615",
-          "description": "Udawalawe is the best place in Sri Lanka to observe wild elephants in large herds. The park also hosts deer, buffalo, crocodiles, and hundreds of bird species."
+          "image": "https://images.unsplash.com/photo-1549366021-9f761d450615"
         }
       ]
     },
 
     {
       "name": "Whale Watching",
+      "description": "Sri Lanka is one of the few places in the world where visitors can see blue whales close to shore. Seasonal whale watching tours also offer sightings of sperm whales, dolphins, and other marine life in the Indian Ocean.",
       "locations": [
         {
           "name": "Mirissa",
           "district": "Matara",
-          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935",
-          "description": "Mirissa is one of the best places in the world to see blue whales and sperm whales. Boat tours depart early morning into the deep Indian Ocean."
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935"
         },
         {
           "name": "Trincomalee",
           "district": "Trincomalee",
-          "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9",
-          "description": "Trincomalee offers excellent whale watching during the east-coast season, with chances to see blue whales, dolphins, and other marine life."
+          "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9"
         }
       ]
     },
 
     {
       "name": "Yoga & Meditation Retreats",
+      "description": "Sri Lanka’s tropical beaches, mountains, and Buddhist heritage make it an ideal place for yoga and meditation retreats. Many wellness centers offer peaceful environments focused on mindfulness, relaxation, and holistic healing.",
       "locations": [
         {
           "name": "Talalla Retreat",
           "district": "Matara",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
-          "description": "Talalla Retreat is a peaceful beachfront wellness destination offering yoga, meditation, and holistic healing programs surrounded by tropical nature."
+          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773"
         },
         {
           "name": "Nilambe Meditation Centre",
           "district": "Kandy",
-          "image": "https://images.unsplash.com/photo-1528319725582-ddc096101511",
-          "description": "Nilambe Meditation Centre near Kandy offers silent meditation retreats in a serene forest setting, focusing on Buddhist mindfulness practices."
+          "image": "https://images.unsplash.com/photo-1528319725582-ddc096101511"
         }
       ]
     }

@@ -1,7 +1,13 @@
 import SriLankaMap from '@/components/SriLankaMap'
 import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'
+import DestinationList from '@/components/Home/TrendingDestinations/DestinationList'
+import AboutSriLanka from '@/components/Home/AboutSriLanka/AboutSriLanka'
+import Activities from '@/components/Home/Activities/Activities'
+import VlogSection from '@/components/Home/VlogSection'
+import Footer from '@/components/Footer'
 import React from 'react'
+import TrendingDestinations from '@/components/Home/TrendingDestinations/TrendingDestinations'
 
 export default function Home() {
   return (
@@ -20,10 +26,21 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Add extra space at the bottom just to test scrolling */}
-      <div className="h-screen w-full flex items-center justify-center bg-gray-50">
-        <h2 className="text-4xl text-gray-400 font-medium">Scroll down for more content...</h2>
-      </div>
+      {/* <DestinationList />
+       */}
+      <TrendingDestinations />
+      
+      {/* 3rd Section: About Sri Lanka */}
+      <AboutSriLanka />
+
+      {/* 4th Section: Activities */}
+      <Activities />
+
+      {/* 5th Section: Vlog Section */}
+      <VlogSection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }

@@ -7,7 +7,7 @@ import { useState } from "react";
 import LandmarkModal from "./LandmarkModal";
 
 export default function SriLankaMap() {
-  const [selected, setSelected] = useState<any>(landmarks.landmarks[2]);
+  const [selected, setSelected] = useState<any>(null);
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {

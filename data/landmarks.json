@@ -11,7 +11,7 @@
       "coordinates": { "top": "10%", "left": "30%" },
       "category": "Culture",
       "description": "The northern cultural hub featuring the historic Jaffna Fort and Nallur Kandaswamy Kovil.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/jaffna.jpg"
     },
     {
       "id": "lk-anc-001",
@@ -19,7 +19,7 @@
       "coordinates": { "top": "25%", "left": "45%" },
       "category": "UNESCO Heritage",
       "description": "The first ancient capital of Sri Lanka, home to the Great Ruwanwelisaya Stupa.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/anuradhapura.jpg"
     },
     {
       "id": "lk-anc-002",
@@ -27,7 +27,7 @@
       "coordinates": { "top": "34%", "left": "36%" },
       "category": "UNESCO Heritage",
       "description": "The 5th-century 'Lion Rock' fortress, known for its sky-palace and ancient frescoes.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/sigiriya.jpg"
     },
     {
       "id": "lk-anc-003",
@@ -35,7 +35,7 @@
       "coordinates": { "top": "42%", "left": "58%" },
       "category": "UNESCO Heritage",
       "description": "Medieval capital featuring the Gal Vihara rock-cut Buddha statues.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/polonnaruwa.jpg"
     },
     {
       "id": "lk-hills-001",
@@ -43,7 +43,7 @@
       "coordinates": { "top": "54%", "left": "51%" },
       "category": "Religious",
       "description": "The hilltop capital housing the sacred relic of the tooth of the Buddha.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/tot.webp"
     },
     {
       "id": "lk-hills-002",
@@ -51,7 +51,7 @@
       "coordinates": { "top": "68%", "left": "48%" },
       "category": "Nature",
       "description": "The misty tea country featuring Nine Arch Bridge and World's End.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/kandy.jpg"
     },
     {
       "id": "lk-south-001",
@@ -59,7 +59,7 @@
       "coordinates": { "top": "67%", "left": "74%" },
       "category": "Wildlife",
       "description": "Renowned for the highest density of leopards in the world.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/yala.jpg"
     },
     {
       "id": "lk-south-002",
@@ -67,7 +67,7 @@
       "coordinates": { "top": "78%", "left": "38%" },
       "category": "Colonial Heritage",
       "description": "A 16th-century Portuguese and Dutch fortification still bustling with life.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/galle.jpg"
     },
     {
       "id": "lk-west-001",
@@ -75,7 +75,7 @@
       "coordinates": { "top": "58%", "left": "25%" },
       "category": "Commercial",
       "description": "The bustling economic capital, featuring the Lotus Tower and Galle Face Green.",
-      "image_thumb": "/Assets/Images/smaple.webp"
+      "image_thumb": "/Assets/Images/Landmarks/colombo.webp"
     }
   ]
 }
